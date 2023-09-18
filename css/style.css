@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: all linear 0.18s;
+}
+/* font */
+@font-face {
+    font-family: "byekan";
+    src: url("../font/Yekan.ttf");
+}
+body{
+    font-size: 15px;
+    font-family: "byekan";
+}
+
+/* color */
+.orange{
+    background-color: orange;
+}
+.blue{
+    background-color: blue;
+}
+.violet{
+    background-color: violet;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+
+/* box-shadow */
+.box-shadow1{
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;;
+}
+.box-shadow2{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+/* border-radius */
+.b-rad8{
+    border-radius: 8px;
+}
+
+/* padding */
+.pad{
+    padding: 25px 15px;
+}
+.pad2{
+    padding: 8px 0px;
+}
+.pright10{
+    padding-right: 10px;
+}
+.ptop10{
+    padding-top: 10px;
+}
+.ptop20{
+    padding-top: 20px;
+}
+.ptop30{
+    padding-top: 30px;
+}
+.ptop40{
+    padding-top: 40px;
+}
+.ptop50{
+    padding-top: 50px;
+}
+.ptop60{
+    padding-top: 60px;
+}
+.ptop70{
+    padding-top: 70px;
+}
+
+.pbot10{
+    padding-bottom: 10px;
+}
+.pbot20{
+    padding-bottom: 20px;
+}
+.pbot30{
+    padding-bottom: 30px;
+}
+.pbot40{
+    padding-bottom: 40px;
+}
+.pbot50{
+    padding-bottom: 50px;
+}
+
+/* overflow */
+.of1{
+    overflow: hidden;
+}
+
+
+/* header */
+.menu{
+    height: 100px;
+    padding-top: 20px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin: 15px;
+}
+li a{
+    text-decoration: none;
+    color:black;
+}
+
+.image{
+    height: 350px;
+    background-color: rgb(195, 128, 66);
+    background-blend-mode: multiply;
+    background-image: url("../img/page-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+    padding-top: 80px;
+}
+i{
+    font-size: 200px;
+}
+
+
+/* footer */
+.footer{
+    background-color: #353338;
+    
+}
